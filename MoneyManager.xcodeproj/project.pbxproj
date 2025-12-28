@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FAF49CC22F0171580009B87C /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49CC12F0171580009B87C /* Factory */; };
+		FAF49CC92F0171780009B87C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49CC82F0171780009B87C /* Lottie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FAF498932F016FCB0009B87C /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF49CC22F0171580009B87C /* Factory in Frameworks */,
+				FAF49CC92F0171780009B87C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = MoneyManager;
 			packageProductDependencies = (
+				FAF49CC12F0171580009B87C /* Factory */,
+				FAF49CC82F0171780009B87C /* Lottie */,
 			);
 			productName = MoneyManager;
 			productReference = FAF498932F016FCB0009B87C /* MoneyManager.app */;
@@ -94,6 +103,10 @@
 			);
 			mainGroup = FAF4988A2F016FCB0009B87C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FAF49CC02F0171580009B87C /* XCRemoteSwiftPackageReference "Factory" */,
+				FAF49CC72F0171780009B87C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FAF498942F016FCB0009B87C /* Products */;
 			projectDirPath = "";
@@ -261,6 +274,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,6 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +347,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAF49CC02F0171580009B87C /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.5.3;
+			};
+		};
+		FAF49CC72F0171780009B87C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAF49CC12F0171580009B87C /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF49CC02F0171580009B87C /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		FAF49CC82F0171780009B87C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF49CC72F0171780009B87C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAF4988B2F016FCB0009B87C /* Project object */;
 }

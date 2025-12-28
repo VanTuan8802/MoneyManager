@@ -6,19 +6,20 @@
 //
 
 import SwiftUI
+import Factory
 
 struct ContentView: View {
+    @StateObject private var homeNavi = Navigation()
+
+    @InjectedObject(\.app) private var app: AppManager
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationRoot(destination: .home,
+                       navigation: homeNavi)
+        .onAppear {
+            app.navi = homeNavi
         }
-        .padding()
+        .toolbar(.hidden, for: .tabBar)
     }
 }
 
-#Preview {
-    ContentView()
-}
