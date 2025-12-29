@@ -69,15 +69,15 @@ struct ContainerView: View {
                         }
                     }
                 )
+            } else if !didFinishIntroduction {
+                IntroView(
+                    onCompleted: {
+                        withAnimation {
+                            didFinishIntroduction = true
+                        }
+                    }
+                )
             }
-//            else if !didFinishIntroduction {
-//                IntroView(
-//                    onCompleted: {
-//                        withAnimation {
-//                            didFinishIntroduction = true
-//                        }
-//                    }
-//                )
 //            } else if !didFinishPermision {
 //                PermissionView(
 //                    onCompleted: {

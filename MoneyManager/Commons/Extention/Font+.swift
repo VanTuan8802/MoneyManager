@@ -39,6 +39,7 @@ extension Font {
     /// Medium
     static let medium10 = Font.custom(FontFamily.medium.font, size: 10)
     static let medium12 = Font.custom(FontFamily.medium.font, size: 12)
+    static let medium14 = Font.custom(FontFamily.medium.font, size: 14)
     static let medium16 = Font.custom(FontFamily.medium.font, size: 16)
     static let medium20 = Font.custom(FontFamily.medium.font, size: 20)
 
@@ -51,6 +52,7 @@ extension Font {
 
     /// Bold
     static let bold12 = Font.custom(FontFamily.bold.font, size: 12)
+    static let bold20 = Font.custom(FontFamily.bold.font, size: 20)
     
     /// ExtraBold
     static let extraBold22 = Font.custom(FontFamily.extraBold.font, size: 22)
