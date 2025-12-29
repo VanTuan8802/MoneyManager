@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "AD" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -8,6 +11,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "廣告"
+          }
+        }
+      }
+    },
+    "currencies" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Currencies"
+          }
+        }
+      }
+    },
+    "favorites" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorites"
           }
         }
       }
@@ -39,6 +64,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        }
+      }
+    },
+    "noData" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Data"
           }
         }
       }
@@ -127,6 +163,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expense analysis chart"
+          }
+        }
+      }
+    },
+    "search" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
           }
         }
       }

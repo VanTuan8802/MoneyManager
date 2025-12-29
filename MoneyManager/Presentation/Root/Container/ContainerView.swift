@@ -43,6 +43,11 @@ struct ContainerView: View {
     
     var body: some View {
         contentView
+            .onAppear {
+                if CurrencyManager.shared.currencies.isEmpty {
+                    CurrencyManager.shared.getCurrency()
+                }
+            }
             .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
                 guard !isFirstLaunch, !isSplashShowing else { return }
             }
@@ -77,15 +82,17 @@ struct ContainerView: View {
                         }
                     }
                 )
+            } else if !didSelectCurrency {
+                CurrencyView(
+                    currencySelected: .default(),
+                    isFullScreen: true,
+                    onCompleted: {
+                        withAnimation {
+                            didSelectCurrency = true
+                        }
+                    }
+                )
             }
-//            } else if !didFinishPermision {
-//                PermissionView(
-//                    onCompleted: {
-//                        withAnimation {
-//                            didFinishPermision = true
-//                        }
-//                    }
-//                )
 //            } else if !didFisishLogin {
 //                LoginView(
 //                    onCompleted: {

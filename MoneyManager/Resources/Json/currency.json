@@ -1,0 +1,1730 @@
+[
+  {
+    "id": 152,
+    "code": "USD",
+    "flag": "https://144-202-123-28.nip.io/images/unitedstates.png",
+    "country": "United States",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_US"
+  },
+  {
+    "id": 1,
+    "code": "AED",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_United_Arab_Emirates.svg.png",
+    "country": "United Arab Emirates",
+    "currency": "United Arab Emirates dirham",
+    "symbol": "د.إ",
+    "identifier": "en_AE"
+  },
+  {
+    "id": 2,
+    "code": "AFN",
+    "flag": "https://144-202-123-28.nip.io/images/afghanistan.png",
+    "country": "Afghanistan",
+    "currency": "Afghani",
+    "symbol": "؋",
+    "identifier": "en_AF"
+  },
+  {
+    "id": 3,
+    "code": "ALL",
+    "flag": "https://144-202-123-28.nip.io/images/albania.png",
+    "country": "Albania",
+    "currency": "Lek",
+    "symbol": "Lek",
+    "identifier": "en_AL"
+  },
+  {
+    "id": 4,
+    "code": "AMD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Armenia.svg.png",
+    "country": "Armenia",
+    "currency": "Armenian dram",
+    "symbol": "֏",
+    "identifier": "en_AR"
+  },
+  {
+    "id": 5,
+    "code": "ANG",
+    "flag": "https://144-202-123-28.nip.io/images/netherlands.png",
+    "country": "Netherlands",
+    "currency": "Antilles Guilder",
+    "symbol": "ƒ",
+    "identifier": "nl_NL"
+  },
+  {
+    "id": 6,
+    "code": "AOA",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Angola.svg.png",
+    "country": "Angola",
+    "currency": "Angolan kwanza",
+    "symbol": "Kz",
+    "identifier": "en_AN"
+  },
+  {
+    "id": 7,
+    "code": "ARS",
+    "flag": "https://144-202-123-28.nip.io/images/argentina.png",
+    "country": "Argentina",
+    "currency": "Peso",
+    "symbol": "$",
+    "identifier": "es_AR"
+  },
+  {
+    "id": 8,
+    "code": "AUD",
+    "flag": "https://144-202-123-28.nip.io/images/australia.png",
+    "country": "Australia",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_AU"
+  },
+  {
+    "id": 9,
+    "code": "AWG",
+    "flag": "https://144-202-123-28.nip.io/images/aruba.png",
+    "country": "Aruba",
+    "currency": "Guilder",
+    "symbol": "ƒ",
+    "identifier": "en_AR"
+  },
+  {
+    "id": 10,
+    "code": "AZN",
+    "flag": "https://144-202-123-28.nip.io/images/azerbaijan.png",
+    "country": "Azerbaijan",
+    "currency": "Manat",
+    "symbol": "₼",
+    "identifier": "en_AZ"
+  },
+  {
+    "id": 11,
+    "code": "BAM",
+    "flag": "https://144-202-123-28.nip.io/images/Bosnia_and_Herzegovina.png",
+    "country": "Bosnia and Herzegovina",
+    "currency": "Convertible Marka",
+    "symbol": "KM",
+    "identifier": "en_HE"
+  },
+  {
+    "id": 12,
+    "code": "BBD",
+    "flag": "https://144-202-123-28.nip.io/images/barbados.png",
+    "country": "Barbados",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_BA"
+  },
+  {
+    "id": 13,
+    "code": "BDT",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Bangladesh.svg.png",
+    "country": "Bangladesh",
+    "currency": "Bangladeshi taka",
+    "symbol": "৳",
+    "identifier": "en_BA"
+  },
+  {
+    "id": 14,
+    "code": "BGN",
+    "flag": "https://144-202-123-28.nip.io/images/bulgaria.png",
+    "country": "Bulgaria",
+    "currency": "Lev",
+    "symbol": "лв",
+    "identifier": "en_BU"
+  },
+  {
+    "id": 15,
+    "code": "BHD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Bahrain.svg.png",
+    "country": "Bahrain",
+    "currency": "Bahraini dinar",
+    "symbol": "BD",
+    "identifier": "en_BA"
+  },
+  {
+    "id": 16,
+    "code": "BIF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Burundi.svg.png",
+    "country": "Burundi",
+    "currency": "Burundian franc",
+    "symbol": "Fr",
+    "identifier": "en_BU"
+  },
+  {
+    "id": 17,
+    "code": "BMD",
+    "flag": "https://144-202-123-28.nip.io/images/bermuda.png",
+    "country": "Bermuda",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_BE"
+  },
+  {
+    "id": 18,
+    "code": "BND",
+    "flag": "https://144-202-123-28.nip.io/images/brunei.png",
+    "country": "Brunei",
+    "currency": "Darussalam Dollar",
+    "symbol": "$",
+    "identifier": "en_BR"
+  },
+  {
+    "id": 19,
+    "code": "BOB",
+    "flag": "https://144-202-123-28.nip.io/images/bolivia.png",
+    "country": "Bolivia",
+    "currency": "Boliviano",
+    "symbol": "$b",
+    "identifier": "en_BO"
+  },
+  {
+    "id": 20,
+    "code": "BRL",
+    "flag": "https://144-202-123-28.nip.io/images/brazil.png",
+    "country": "Brazil",
+    "currency": "Real",
+    "symbol": "R$",
+    "identifier": "pt_BR"
+  },
+  {
+    "id": 21,
+    "code": "BSD",
+    "flag": "https://144-202-123-28.nip.io/images/bahamas.png",
+    "country": "Bahamas",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_BA"
+  },
+  {
+    "id": 23,
+    "code": "BTN",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Bhutan.svg.png",
+    "country": "Bhutan",
+    "currency": "Bhutanese ngultrum",
+    "symbol": "Nu",
+    "identifier": "en_BH"
+  },
+  {
+    "id": 24,
+    "code": "BWP",
+    "flag": "https://144-202-123-28.nip.io/images/botswana.png",
+    "country": "Botswana",
+    "currency": "Pula",
+    "symbol": "P",
+    "identifier": "en_BO"
+  },
+  {
+    "id": 25,
+    "code": "BYN",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Belarus.svg.png",
+    "country": "Belarus",
+    "currency": "Belarusian ruble",
+    "symbol": "Br",
+    "identifier": "en_BE"
+  },
+  {
+    "id": 26,
+    "code": "BYR",
+    "flag": "https://144-202-123-28.nip.io/images/belarus.png",
+    "country": "Belarus",
+    "currency": "Ruble",
+    "symbol": "p.",
+    "identifier": "en_BE"
+  },
+  {
+    "id": 27,
+    "code": "BZD",
+    "flag": "https://144-202-123-28.nip.io/images/belize.png",
+    "country": "Belize",
+    "currency": "Dollar",
+    "symbol": "BZ$",
+    "identifier": "en_BE"
+  },
+  {
+    "id": 28,
+    "code": "CAD",
+    "flag": "https://144-202-123-28.nip.io/images/canada.png",
+    "country": "Canada",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_CA"
+  },
+  {
+    "id": 29,
+    "code": "CDF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+    "country": "Congo, Democratic Republic of the",
+    "currency": "Congolese franc",
+    "symbol": "Fr",
+    "identifier": "en_TH"
+  },
+  {
+    "id": 30,
+    "code": "CHF",
+    "flag": "https://144-202-123-28.nip.io/images/switzerland.png",
+    "country": "Switzerland",
+    "currency": "Franc",
+    "symbol": "CHF",
+    "identifier": "de_CH"
+  },
+  {
+    "id": 31,
+    "code": "CLF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Chile.svg.png",
+    "country": "Chile",
+    "currency": "Chilean Unit of Account",
+    "symbol": "UF",
+    "identifier": "es_CL"
+  },
+  {
+    "id": 32,
+    "code": "CLP",
+    "flag": "https://144-202-123-28.nip.io/images/chile.png",
+    "country": "Chile",
+    "currency": "Peso",
+    "symbol": "$",
+    "identifier": "es_CL"
+  },
+  {
+    "id": 33,
+    "code": "CNY",
+    "flag": "https://144-202-123-28.nip.io/images/china.png",
+    "country": "China",
+    "currency": "Yuan Renminbi",
+    "symbol": "¥",
+    "identifier": "zh_CN"
+  },
+  {
+    "id": 34,
+    "code": "COP",
+    "flag": "https://144-202-123-28.nip.io/images/colombia.png",
+    "country": "Colombia",
+    "currency": "Peso",
+    "symbol": "$",
+    "identifier": "es_CO"
+  },
+  {
+    "id": 35,
+    "code": "CRC",
+    "flag": "https://144-202-123-28.nip.io/images/costarica.png",
+    "country": "Costa Rica",
+    "currency": "Colon",
+    "symbol": "₡",
+    "identifier": "en_RI"
+  },
+  {
+    "id": 36,
+    "code": "CUC",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Cuba.svg.png",
+    "country": "Cuba",
+    "currency": "Cuban Convertible Peso",
+    "symbol": "CUC$",
+    "identifier": "en_CU"
+  },
+  {
+    "id": 37,
+    "code": "CUP",
+    "flag": "https://144-202-123-28.nip.io/images/cuba.png",
+    "country": "Cuba",
+    "currency": "Peso",
+    "symbol": "₱",
+    "identifier": "en_CU"
+  },
+  {
+    "id": 38,
+    "code": "CVE",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Cape_Verde.svg.png",
+    "country": "Cape Verde",
+    "currency": "Cape Verdean escudo",
+    "symbol": "$",
+    "identifier": "en_VE"
+  },
+  {
+    "id": 39,
+    "code": "CZK",
+    "flag": "https://144-202-123-28.nip.io/images/czechrepublic.png",
+    "country": "Czech Republic",
+    "currency": "Koruna",
+    "symbol": "Kč",
+    "identifier": "en_RE"
+  },
+  {
+    "id": 40,
+    "code": "DJF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Djibouti.svg.png",
+    "country": "Djibouti",
+    "currency": "Djiboutian franc",
+    "symbol": "Fr",
+    "identifier": "en_DJ"
+  },
+  {
+    "id": 41,
+    "code": "DKK",
+    "flag": "https://144-202-123-28.nip.io/images/denmark.png",
+    "country": "Denmark",
+    "currency": "Krone",
+    "symbol": "kr",
+    "identifier": "en_DE"
+  },
+  {
+    "id": 42,
+    "code": "DOP",
+    "flag": "https://144-202-123-28.nip.io/images/dominicanrepublic.png",
+    "country": "Dominican Republic",
+    "currency": "Peso",
+    "symbol": "RD$",
+    "identifier": "en_RE"
+  },
+  {
+    "id": 43,
+    "code": "DZD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Algeria.svg.png",
+    "country": "Algeria",
+    "currency": "Algerian dinar",
+    "symbol": "DA",
+    "identifier": "en_AL"
+  },
+  {
+    "id": 44,
+    "code": "EGP",
+    "flag": "https://144-202-123-28.nip.io/images/egypt.png",
+    "country": "Egypt",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "ar_EG"
+  },
+  {
+    "id": 45,
+    "code": "ERN",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Eritrea.svg.png",
+    "country": "Eritrea",
+    "currency": "Eritrean nakfa",
+    "symbol": "Nkf",
+    "identifier": "en_ER"
+  },
+  {
+    "id": 46,
+    "code": "ETB",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Ethiopia.svg.png",
+    "country": "Ethiopia",
+    "currency": "Ethiopian birr",
+    "symbol": "Br",
+    "identifier": "en_ET"
+  },
+  {
+    "id": 47,
+    "code": "EUR",
+    "flag": "https://144-202-123-28.nip.io/images/euro.png",
+    "country": "Euro Member",
+    "currency": "Euro",
+    "symbol": "€",
+    "identifier": "en_ME"
+  },
+  {
+    "id": 48,
+    "code": "FJD",
+    "flag": "https://144-202-123-28.nip.io/images/fiji.png",
+    "country": "Fiji",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_FI"
+  },
+  {
+    "id": 49,
+    "code": "FKP",
+    "flag": "https://144-202-123-28.nip.io/images/falklandislands.png",
+    "country": "Falkland Islands",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_IS"
+  },
+  {
+    "id": 50,
+    "code": "GBP",
+    "flag": "https://144-202-123-28.nip.io/images/unitedkingdom.png",
+    "country": "United Kingdom",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_GB"
+  },
+  {
+    "id": 51,
+    "code": "GEL",
+    "flag": "https://144-202-123-28.nip.io/images/georgia.png",
+    "country": "Georgia",
+    "currency": "Lari",
+    "symbol": "₾",
+    "identifier": "en_GE"
+  },
+  {
+    "id": 52,
+    "code": "GGP",
+    "flag": "https://144-202-123-28.nip.io/images/guernsey.png",
+    "country": "Guernsey",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 53,
+    "code": "GHS",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Ghana.svg.png",
+    "country": "Ghana",
+    "currency": "Ghanaian cedi",
+    "symbol": "₵",
+    "identifier": "en_GH"
+  },
+  {
+    "id": 54,
+    "code": "GIP",
+    "flag": "https://144-202-123-28.nip.io/images/gibraltar.png",
+    "country": "Gibraltar",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_GI"
+  },
+  {
+    "id": 55,
+    "code": "GMD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_The_Gambia.svg.png",
+    "country": "Gambia, The",
+    "currency": "Gambian dalasi",
+    "symbol": "D",
+    "identifier": "en_TH"
+  },
+  {
+    "id": 56,
+    "code": "GNF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Guinea.svg.png",
+    "country": "Guinea",
+    "currency": "Guinean franc",
+    "symbol": "Fr",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 57,
+    "code": "GTQ",
+    "flag": "https://144-202-123-28.nip.io/images/guatemala.png",
+    "country": "Guatemala",
+    "currency": "Quetzal",
+    "symbol": "Q",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 58,
+    "code": "GYD",
+    "flag": "https://144-202-123-28.nip.io/images/guyana.png",
+    "country": "Guyana",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 59,
+    "code": "HKD",
+    "flag": "https://144-202-123-28.nip.io/images/hongkong.png",
+    "country": "Hong Kong",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_KO"
+  },
+  {
+    "id": 60,
+    "code": "HNL",
+    "flag": "https://144-202-123-28.nip.io/images/honduras.png",
+    "country": "Honduras",
+    "currency": "Lempira",
+    "symbol": "L",
+    "identifier": "en_HO"
+  },
+  {
+    "id": 61,
+    "code": "HRK",
+    "flag": "https://144-202-123-28.nip.io/images/croatia.png",
+    "country": "Croatia",
+    "currency": "Kuna",
+    "symbol": "kn",
+    "identifier": "en_CR"
+  },
+  {
+    "id": 62,
+    "code": "HTG",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Haiti.svg.png",
+    "country": "Haiti",
+    "currency": "Haitian gourde",
+    "symbol": "G",
+    "identifier": "en_HA"
+  },
+  {
+    "id": 63,
+    "code": "HUF",
+    "flag": "https://144-202-123-28.nip.io/images/hungary.png",
+    "country": "Hungary",
+    "currency": "Forint",
+    "symbol": "Ft",
+    "identifier": "en_HU"
+  },
+  {
+    "id": 64,
+    "code": "IDR",
+    "flag": "https://144-202-123-28.nip.io/images/indonesia.png",
+    "country": "Indonesia",
+    "currency": "Rupiah",
+    "symbol": "Rp",
+    "identifier": "id_ID"
+  },
+  {
+    "id": 65,
+    "code": "ILS",
+    "flag": "https://144-202-123-28.nip.io/images/israel.png",
+    "country": "Israel",
+    "currency": "Shekel",
+    "symbol": "₪",
+    "identifier": "en_IS"
+  },
+  {
+    "id": 66,
+    "code": "IMP",
+    "flag": "https://144-202-123-28.nip.io/images/isleofman.png",
+    "country": "Isle of Man",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 67,
+    "code": "INR",
+    "flag": "https://144-202-123-28.nip.io/images/india.png",
+    "country": "India",
+    "currency": "Rupee",
+    "symbol": "₹",
+    "identifier": "hi_IN"
+  },
+  {
+    "id": 68,
+    "code": "IQD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Iraq.svg.png",
+    "country": "Iraq",
+    "currency": "Iraqi dinar",
+    "symbol": "ID",
+    "identifier": "en_IR"
+  },
+  {
+    "id": 69,
+    "code": "IRR",
+    "flag": "https://144-202-123-28.nip.io/images/iran.png",
+    "country": "Iran",
+    "currency": "Rial",
+    "symbol": "﷼",
+    "identifier": "en_IR"
+  },
+  {
+    "id": 70,
+    "code": "ISK",
+    "flag": "https://144-202-123-28.nip.io/images/iceland.png",
+    "country": "Iceland",
+    "currency": "Krona",
+    "symbol": "kr",
+    "identifier": "en_IC"
+  },
+  {
+    "id": 71,
+    "code": "JEP",
+    "flag": "https://144-202-123-28.nip.io/images/jersey.png",
+    "country": "Jersey",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_JE"
+  },
+  {
+    "id": 72,
+    "code": "JMD",
+    "flag": "https://144-202-123-28.nip.io/images/jamaica.png",
+    "country": "Jamaica",
+    "currency": "Dollar",
+    "symbol": "J$",
+    "identifier": "en_JA"
+  },
+  {
+    "id": 73,
+    "code": "JOD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Jordan.svg.png",
+    "country": "Jordan",
+    "currency": "Jordanian dinar",
+    "symbol": "JD",
+    "identifier": "en_JO"
+  },
+  {
+    "id": 74,
+    "code": "JPY",
+    "flag": "https://144-202-123-28.nip.io/images/japan.png",
+    "country": "Japan",
+    "currency": "Yen",
+    "symbol": "¥",
+    "identifier": "ja_JP"
+  },
+  {
+    "id": 75,
+    "code": "KES",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Kenya.svg.png",
+    "country": "Kenya",
+    "currency": "Kenyan shilling",
+    "symbol": "KSh",
+    "identifier": "en_KE"
+  },
+  {
+    "id": 76,
+    "code": "KGS",
+    "flag": "https://144-202-123-28.nip.io/images/kyrgyzstan.png",
+    "country": "Kyrgyzstan",
+    "currency": "Som",
+    "symbol": "лв",
+    "identifier": "en_KY"
+  },
+  {
+    "id": 77,
+    "code": "KHR",
+    "flag": "https://144-202-123-28.nip.io/images/cambodia.png",
+    "country": "Cambodia",
+    "currency": "Riel",
+    "symbol": "៛",
+    "identifier": "en_CA"
+  },
+  {
+    "id": 78,
+    "code": "KMF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_Comoros.svg.png",
+    "country": "Comoros",
+    "currency": "Comorian franc",
+    "symbol": "Fr",
+    "identifier": "en_CO"
+  },
+  {
+    "id": 79,
+    "code": "KPW",
+    "flag": "https://144-202-123-28.nip.io/images/northkorea.png",
+    "country": "Korea (North)",
+    "currency": "Won",
+    "symbol": "₩",
+    "identifier": "ko_KP"
+  },
+  {
+    "id": 80,
+    "code": "KRW",
+    "flag": "https://144-202-123-28.nip.io/images/southkorea.png",
+    "country": "Korea (South)",
+    "currency": "Won",
+    "symbol": "₩",
+    "identifier": "ko_KR"
+  },
+  {
+    "id": 81,
+    "code": "KWD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Kuwait.svg.png",
+    "country": "Kuwait",
+    "currency": "Kuwaiti dinar",
+    "symbol": "KD",
+    "identifier": "en_KU"
+  },
+  {
+    "id": 82,
+    "code": "KYD",
+    "flag": "https://144-202-123-28.nip.io/images/Cayman_Islands.png",
+    "country": "Cayman",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_CA"
+  },
+  {
+    "id": 83,
+    "code": "KZT",
+    "flag": "https://144-202-123-28.nip.io/images/kazakhstan.png",
+    "country": "Kazakhstan",
+    "currency": "Tenge",
+    "symbol": "лв",
+    "identifier": "en_KA"
+  },
+  {
+    "id": 84,
+    "code": "LAK",
+    "flag": "https://144-202-123-28.nip.io/images/laos.png",
+    "country": "Laos",
+    "currency": "Kip",
+    "symbol": "₭",
+    "identifier": "en_LA"
+  },
+  {
+    "id": 85,
+    "code": "LBP",
+    "flag": "https://144-202-123-28.nip.io/images/lebanon.png",
+    "country": "Lebanon",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_LE"
+  },
+  {
+    "id": 86,
+    "code": "LKR",
+    "flag": "https://144-202-123-28.nip.io/images/srilanka.png",
+    "country": "Sri Lanka",
+    "currency": "Rupee",
+    "symbol": "₨",
+    "identifier": "en_LA"
+  },
+  {
+    "id": 87,
+    "code": "LRD",
+    "flag": "https://144-202-123-28.nip.io/images/liberia.png",
+    "country": "Liberia",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_LI"
+  },
+  {
+    "id": 88,
+    "code": "LSL",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Lesotho.svg.png",
+    "country": "Lesotho",
+    "currency": "Lesotho loti",
+    "symbol": "L",
+    "identifier": "en_LE"
+  },
+  {
+    "id": 89,
+    "code": "LTL",
+    "flag": "https://144-202-123-28.nip.io/images/lithuania.png",
+    "country": "Lithuania",
+    "currency": "Litas",
+    "symbol": "Lt",
+    "identifier": "en_LI"
+  },
+  {
+    "id": 90,
+    "code": "LVL",
+    "flag": "https://144-202-123-28.nip.io/images/latvia.png",
+    "country": "Latvia",
+    "currency": "Lat",
+    "symbol": "Ls",
+    "identifier": "en_LA"
+  },
+  {
+    "id": 91,
+    "code": "LYD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Libya.svg.png",
+    "country": "Libya",
+    "currency": "Libyan dinar",
+    "symbol": "LD",
+    "identifier": "en_LI"
+  },
+  {
+    "id": 92,
+    "code": "MAD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Morocco.svg.png",
+    "country": "Morocco",
+    "currency": "Moroccan dirham",
+    "symbol": "DH",
+    "identifier": "en_MO"
+  },
+  {
+    "id": 93,
+    "code": "MAD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg.png",
+    "country": "Sahrawi Republic",
+    "currency": "Moroccan dirham",
+    "symbol": "DH",
+    "identifier": "en_RE"
+  },
+  {
+    "id": 94,
+    "code": "MDL",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Moldova.svg.png",
+    "country": "Moldova",
+    "currency": "Moldovan leu",
+    "symbol": "Leu",
+    "identifier": "en_MO"
+  },
+  {
+    "id": 95,
+    "code": "MGA",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Madagascar.svg.png",
+    "country": "Madagascar",
+    "currency": "Malagasy ariary",
+    "symbol": "Ar",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 96,
+    "code": "MKD",
+    "flag": "https://144-202-123-28.nip.io/images/macedonia.png",
+    "country": "Macedonia",
+    "currency": "Denar",
+    "symbol": "ден",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 97,
+    "code": "MMK",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Myanmar.svg.png",
+    "country": "Myanmar",
+    "currency": "Burmese kyat",
+    "symbol": "K",
+    "identifier": "en_MY"
+  },
+  {
+    "id": 98,
+    "code": "MNT",
+    "flag": "https://144-202-123-28.nip.io/images/mongolia.png",
+    "country": "Mongolia",
+    "currency": "Tughrik",
+    "symbol": "₮",
+    "identifier": "en_MO"
+  },
+  {
+    "id": 99,
+    "code": "MOP",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Macau.svg.png",
+    "country": "Macau",
+    "currency": "Macanese pataca",
+    "symbol": "MOP$",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 100,
+    "code": "MRU",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Mauritania.svg.png",
+    "country": "Mauritania",
+    "currency": "Mauritanian ouguiya",
+    "symbol": "UM",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 101,
+    "code": "MUR",
+    "flag": "https://144-202-123-28.nip.io/images/mauritius.png",
+    "country": "Mauritius",
+    "currency": "Rupee",
+    "symbol": "₨",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 102,
+    "code": "MVR",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Maldives.svg.png",
+    "country": "Maldives",
+    "currency": "Maldivian rufiyaa",
+    "symbol": "Rf",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 103,
+    "code": "MWK",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Malawi.svg.png",
+    "country": "Malawi",
+    "currency": "Malawian kwacha",
+    "symbol": "K",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 104,
+    "code": "MXN",
+    "flag": "https://144-202-123-28.nip.io/images/mexico.png",
+    "country": "Mexico",
+    "currency": "Peso",
+    "symbol": "$",
+    "identifier": "es_MX"
+  },
+  {
+    "id": 105,
+    "code": "MYR",
+    "flag": "https://144-202-123-28.nip.io/images/malaysia.png",
+    "country": "Malaysia",
+    "currency": "Ringgit",
+    "symbol": "RM",
+    "identifier": "ms_MY"
+  },
+  {
+    "id": 106,
+    "code": "MZN",
+    "flag": "https://144-202-123-28.nip.io/images/mozambique.png",
+    "country": "Mozambique",
+    "currency": "Metical",
+    "symbol": "MT",
+    "identifier": "en_MO"
+  },
+  {
+    "id": 107,
+    "code": "NAD",
+    "flag": "https://144-202-123-28.nip.io/images/namibia.png",
+    "country": "Namibia",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_NA"
+  },
+  {
+    "id": 108,
+    "code": "NGN",
+    "flag": "https://144-202-123-28.nip.io/images/nigeria.png",
+    "country": "Nigeria",
+    "currency": "Naira",
+    "symbol": "₦",
+    "identifier": "en_NI"
+  },
+  {
+    "id": 109,
+    "code": "NIO",
+    "flag": "https://144-202-123-28.nip.io/images/nicaragua.png",
+    "country": "Nicaragua",
+    "currency": "Cordoba",
+    "symbol": "C$",
+    "identifier": "en_NI"
+  },
+  {
+    "id": 110,
+    "code": "NOK",
+    "flag": "https://144-202-123-28.nip.io/images/norway.png",
+    "country": "Norway",
+    "currency": "Krone",
+    "symbol": "kr",
+    "identifier": "en_NO"
+  },
+  {
+    "id": 111,
+    "code": "NPR",
+    "flag": "https://144-202-123-28.nip.io/images/nepal.png",
+    "country": "Nepal",
+    "currency": "Rupee",
+    "symbol": "₨",
+    "identifier": "en_NE"
+  },
+  {
+    "id": 112,
+    "code": "NZD",
+    "flag": "https://144-202-123-28.nip.io/images/newzealand.png",
+    "country": "New Zealand",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_NZ"
+  },
+  {
+    "id": 113,
+    "code": "OMR",
+    "flag": "https://144-202-123-28.nip.io/images/oman.png",
+    "country": "Oman",
+    "currency": "Rial",
+    "symbol": "﷼",
+    "identifier": "en_OM"
+  },
+  {
+    "id": 114,
+    "code": "PAB",
+    "flag": "https://144-202-123-28.nip.io/images/panama.png",
+    "country": "Panama",
+    "currency": "Balboa",
+    "symbol": "B/.",
+    "identifier": "en_PA"
+  },
+  {
+    "id": 115,
+    "code": "PEN",
+    "flag": "https://144-202-123-28.nip.io/images/peru.png",
+    "country": "Peru",
+    "currency": "Nuevo Sol",
+    "symbol": "S/.",
+    "identifier": "es_PE"
+  },
+  {
+    "id": 116,
+    "code": "PGK",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Papua_New_Guinea.svg.png",
+    "country": "Papua New Guinea",
+    "currency": "Papua New Guinean kina",
+    "symbol": "K",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 117,
+    "code": "PHP",
+    "flag": "https://144-202-123-28.nip.io/images/philippines.png",
+    "country": "Philippines",
+    "currency": "Peso",
+    "symbol": "₱",
+    "identifier": "en_PH"
+  },
+  {
+    "id": 118,
+    "code": "PKR",
+    "flag": "https://144-202-123-28.nip.io/images/pakistan.png",
+    "country": "Pakistan",
+    "currency": "Rupee",
+    "symbol": "₨",
+    "identifier": "ur_PK"
+  },
+  {
+    "id": 119,
+    "code": "PLN",
+    "flag": "https://144-202-123-28.nip.io/images/poland.png",
+    "country": "Poland",
+    "currency": "Zloty",
+    "symbol": "zł",
+    "identifier": "en_PO"
+  },
+  {
+    "id": 120,
+    "code": "PYG",
+    "flag": "https://144-202-123-28.nip.io/images/paraguay.png",
+    "country": "Paraguay",
+    "currency": "Guarani",
+    "symbol": "Gs",
+    "identifier": "en_PA"
+  },
+  {
+    "id": 121,
+    "code": "QAR",
+    "flag": "https://144-202-123-28.nip.io/images/qatar.png",
+    "country": "Qatar",
+    "currency": "Riyal",
+    "symbol": "﷼",
+    "identifier": "en_QA"
+  },
+  {
+    "id": 122,
+    "code": "RON",
+    "flag": "https://144-202-123-28.nip.io/images/romania.png",
+    "country": "Romania",
+    "currency": "New Leu",
+    "symbol": "lei",
+    "identifier": "en_RO"
+  },
+  {
+    "id": 123,
+    "code": "RSD",
+    "flag": "https://144-202-123-28.nip.io/images/serbia.png",
+    "country": "Serbia",
+    "currency": "Dinar",
+    "symbol": "Дин.",
+    "identifier": "en_SE"
+  },
+  {
+    "id": 124,
+    "code": "RUB",
+    "flag": "https://144-202-123-28.nip.io/images/russia.png",
+    "country": "Russia",
+    "currency": "Ruble",
+    "symbol": "₽",
+    "identifier": "ru_RU"
+  },
+  {
+    "id": 125,
+    "code": "RWF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Rwanda.svg.png",
+    "country": "Rwanda",
+    "currency": "Rwandan franc",
+    "symbol": "Fr",
+    "identifier": "en_RW"
+  },
+  {
+    "id": 126,
+    "code": "SAR",
+    "flag": "https://144-202-123-28.nip.io/images/saudiarabia.png",
+    "country": "Saudi Arabia",
+    "currency": "Riyal",
+    "symbol": "﷼",
+    "identifier": "ar_SA"
+  },
+  {
+    "id": 127,
+    "code": "SBD",
+    "flag": "https://144-202-123-28.nip.io/images/solomonislands.png",
+    "country": "Solomon Islands",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_IS"
+  },
+  {
+    "id": 128,
+    "code": "SCR",
+    "flag": "https://144-202-123-28.nip.io/images/seychelles.png",
+    "country": "Seychelles",
+    "currency": "Rupee",
+    "symbol": "₨",
+    "identifier": "en_SE"
+  },
+  {
+    "id": 129,
+    "code": "SDG",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Sudan.svg.png",
+    "country": "Sudan",
+    "currency": "Sudanese pound",
+    "symbol": "LS",
+    "identifier": "en_SU"
+  },
+  {
+    "id": 130,
+    "code": "SEK",
+    "flag": "https://144-202-123-28.nip.io/images/sweden.png",
+    "country": "Sweden",
+    "currency": "Krona",
+    "symbol": "kr",
+    "identifier": "en_SW"
+  },
+  {
+    "id": 131,
+    "code": "SGD",
+    "flag": "https://144-202-123-28.nip.io/images/singapore.png",
+    "country": "Singapore",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_SG"
+  },
+  {
+    "id": 132,
+    "code": "SHP",
+    "flag": "https://144-202-123-28.nip.io/images/sainthelena.png",
+    "country": "Saint Helena",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_HE"
+  },
+  {
+    "id": 133,
+    "code": "SLE",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Sierra_Leone.svg.png",
+    "country": "Sierra Leone",
+    "currency": "Sierra Leonean leone",
+    "symbol": "Le",
+    "identifier": "en_LE"
+  },
+  {
+    "id": 134,
+    "code": "SLL",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Sierra_Leone.svg.png",
+    "country": "Sierra Leone",
+    "currency": "Sierra Leonean Leone",
+    "symbol": "Le",
+    "identifier": "en_LE"
+  },
+  {
+    "id": 135,
+    "code": "SOS",
+    "flag": "https://144-202-123-28.nip.io/images/somalia.png",
+    "country": "Somalia",
+    "currency": "Shilling",
+    "symbol": "S",
+    "identifier": "en_SO"
+  },
+  {
+    "id": 136,
+    "code": "SRD",
+    "flag": "https://144-202-123-28.nip.io/images/suriname.png",
+    "country": "Suriname",
+    "currency": "Dollar",
+    "symbol": "$",
+    "identifier": "en_SU"
+  },
+  {
+    "id": 137,
+    "code": "STD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_São_Tomé_and_Príncipe.svg.png",
+    "country": "São Tomé and Príncipe",
+    "currency": "São Tomé and Príncipe Dobra",
+    "symbol": "Db",
+    "identifier": "en_PR"
+  },
+  {
+    "id": 138,
+    "code": "SYP",
+    "flag": "https://144-202-123-28.nip.io/images/syria.png",
+    "country": "Syria",
+    "currency": "Pound",
+    "symbol": "£",
+    "identifier": "en_SY"
+  },
+  {
+    "id": 139,
+    "code": "SZL",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Eswatini.svg.png",
+    "country": "Eswatini",
+    "currency": "Swazi lilangeni",
+    "symbol": "L",
+    "identifier": "en_ES"
+  },
+  {
+    "id": 140,
+    "code": "THB",
+    "flag": "https://144-202-123-28.nip.io/images/thailand.png",
+    "country": "Thailand",
+    "currency": "Baht",
+    "symbol": "฿",
+    "identifier": "th_TH"
+  },
+  {
+    "id": 141,
+    "code": "TJS",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Tajikistan.svg.png",
+    "country": "Tajikistan",
+    "currency": "Tajikistani somoni",
+    "symbol": "SM",
+    "identifier": "en_TA"
+  },
+  {
+    "id": 142,
+    "code": "TMT",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Turkmenistan.svg.png",
+    "country": "Turkmenistan",
+    "currency": "Turkmenistani manat",
+    "symbol": "m",
+    "identifier": "en_TU"
+  },
+  {
+    "id": 143,
+    "code": "TND",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Tunisia.svg.png",
+    "country": "Tunisia",
+    "currency": "Tunisian dinar",
+    "symbol": "DT",
+    "identifier": "en_TU"
+  },
+  {
+    "id": 144,
+    "code": "TOP",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Tonga.svg.png",
+    "country": "Tonga",
+    "currency": "Tongan paʻanga",
+    "symbol": "T$",
+    "identifier": "en_TO"
+  },
+  {
+    "id": 145,
+    "code": "TRY",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg.png",
+    "country": "Northern Cyprus",
+    "currency": "Turkish lira",
+    "symbol": "₺",
+    "identifier": "en_CY"
+  },
+  {
+    "id": 146,
+    "code": "TRY",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Turkey.svg.png",
+    "country": "Turkey",
+    "currency": "Turkish lira",
+    "symbol": "₺",
+    "identifier": "tr_TR"
+  },
+  {
+    "id": 147,
+    "code": "TTD",
+    "flag": "https://144-202-123-28.nip.io/images/trinidadandtobago.png",
+    "country": "Trinidad and Tobago",
+    "currency": "Dollar",
+    "symbol": "TT$",
+    "identifier": "en_TO"
+  },
+  {
+    "id": 148,
+    "code": "TWD",
+    "flag": "https://144-202-123-28.nip.io/images/taiwan.png",
+    "country": "Taiwan",
+    "currency": "New Dollar",
+    "symbol": "NT$",
+    "identifier": "en_TA"
+  },
+  {
+    "id": 149,
+    "code": "TZS",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Tanzania.svg.png",
+    "country": "Tanzania",
+    "currency": "Tanzanian shilling",
+    "symbol": "Sh",
+    "identifier": "en_TA"
+  },
+  {
+    "id": 150,
+    "code": "UAH",
+    "flag": "https://144-202-123-28.nip.io/images/ukraine.png",
+    "country": "Ukraine",
+    "currency": "Hryvna",
+    "symbol": "₴",
+    "identifier": "en_UK"
+  },
+  {
+    "id": 151,
+    "code": "UGX",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Uganda.svg.png",
+    "country": "Uganda",
+    "currency": "Ugandan shilling",
+    "symbol": "USh",
+    "identifier": "en_UG"
+  },
+  {
+    "id": 153,
+    "code": "UYU",
+    "flag": "https://144-202-123-28.nip.io/images/uruguay.png",
+    "country": "Uruguay",
+    "currency": "Peso",
+    "symbol": "$U",
+    "identifier": "en_UR"
+  },
+  {
+    "id": 154,
+    "code": "UZS",
+    "flag": "https://144-202-123-28.nip.io/images/uzbekistan.png",
+    "country": "Uzbekistan",
+    "currency": "Som",
+    "symbol": "лв",
+    "identifier": "en_UZ"
+  },
+  {
+    "id": 155,
+    "code": "VEF",
+    "flag": "https://144-202-123-28.nip.io/images/venezuela.png",
+    "country": "Venezuela",
+    "currency": "Bolivar Fuerte",
+    "symbol": "Bs",
+    "identifier": "en_VE"
+  },
+  {
+    "id": 156,
+    "code": "VES",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Venezuela.svg.png",
+    "country": "Venezuela",
+    "currency": "Venezuelan sovereign bolívar",
+    "symbol": "Bs.S",
+    "identifier": "en_VE"
+  },
+  {
+    "id": 157,
+    "code": "VND",
+    "flag": "https://144-202-123-28.nip.io/images/vietnam.png",
+    "country": "Viet Nam",
+    "currency": "Dong",
+    "symbol": "₫",
+    "identifier": "vi_VN"
+  },
+  {
+    "id": 158,
+    "code": "VUV",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Vanuatu.svg.png",
+    "country": "Vanuatu",
+    "currency": "Vanuatu vatu",
+    "symbol": "VT",
+    "identifier": "en_VA"
+  },
+  {
+    "id": 159,
+    "code": "WST",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Samoa.svg.png",
+    "country": "Samoa",
+    "currency": "Samoan tālā",
+    "symbol": "$",
+    "identifier": "en_SA"
+  },
+  {
+    "id": 160,
+    "code": "XAF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Cameroon.svg.png",
+    "country": "Cameroon",
+    "currency": "Central African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_CA"
+  },
+  {
+    "id": 161,
+    "code": "XAF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_Central_African_Republic.svg.png",
+    "country": "Central African Republic",
+    "currency": "Central African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_RE"
+  },
+  {
+    "id": 162,
+    "code": "XAF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Chad.svg.png",
+    "country": "Chad",
+    "currency": "Central African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_CH"
+  },
+  {
+    "id": 163,
+    "code": "XAF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_the_Republic_of_the_Congo.svg.png",
+    "country": "Congo, Republic of the",
+    "currency": "Central African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_TH"
+  },
+  {
+    "id": 164,
+    "code": "XAF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Equatorial_Guinea.svg.png",
+    "country": "Equatorial Guinea",
+    "currency": "Central African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 165,
+    "code": "XAF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Gabon.svg.png",
+    "country": "Gabon",
+    "currency": "Central African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_GA"
+  },
+  {
+    "id": 166,
+    "code": "XAG",
+    "flag": "https://144-202-123-28.nip.io/images/silver.png",
+    "country": "Silver",
+    "currency": "Silver (troy ounce)",
+    "symbol": "Ounce",
+    "identifier": "en_SI"
+  },
+  {
+    "id": 167,
+    "code": "XAU",
+    "flag": "https://144-202-123-28.nip.io/images/gold.png",
+    "country": "Gold",
+    "currency": "Gold (troy ounce)",
+    "symbol": "Ounce",
+    "identifier": "en_GO"
+  },
+  {
+    "id": 168,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Anguilla.svg.png",
+    "country": "Anguilla",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_AN"
+  },
+  {
+    "id": 169,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Antigua_and_Barbuda.svg.png",
+    "country": "Antigua and Barbuda",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_BA"
+  },
+  {
+    "id": 170,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Dominica.svg.png",
+    "country": "Dominica",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_DO"
+  },
+  {
+    "id": 171,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Grenada.svg.png",
+    "country": "Grenada",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_GR"
+  },
+  {
+    "id": 172,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Montserrat.svg.png",
+    "country": "Montserrat",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_MO"
+  },
+  {
+    "id": 173,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Saint_Kitts_and_Nevis.svg.png",
+    "country": "Saint Kitts and Nevis",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_NE"
+  },
+  {
+    "id": 174,
+    "code": "XCD",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Saint_Lucia.svg.png",
+    "country": "Saint Lucia",
+    "currency": "Eastern Caribbean dollar",
+    "symbol": "$",
+    "identifier": "en_LU"
+  },
+  {
+    "id": 175,
+    "code": "XDR",
+    "flag": "https://144-202-123-28.nip.io/images/int-imf.png",
+    "country": "International Monetary Fund",
+    "currency": "Special Drawing Rights",
+    "symbol": "SDR",
+    "identifier": "en_FU"
+  },
+  {
+    "id": 176,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Benin.svg.png",
+    "country": "Benin",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_BE"
+  },
+  {
+    "id": 177,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Burkina_Faso.svg.png",
+    "country": "Burkina Faso",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_FA"
+  },
+  {
+    "id": 178,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Côte_d'Ivoire.svg.png",
+    "country": "Côte d'Ivoire",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_D'"
+  },
+  {
+    "id": 179,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Guinea-Bissau.svg.png",
+    "country": "Guinea-Bissau",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_GU"
+  },
+  {
+    "id": 180,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Mali.svg.png",
+    "country": "Mali",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_MA"
+  },
+  {
+    "id": 181,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Niger.svg.png",
+    "country": "Niger",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_NI"
+  },
+  {
+    "id": 182,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Senegal.svg.png",
+    "country": "Senegal",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_SE"
+  },
+  {
+    "id": 183,
+    "code": "XOF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Togo.svg.png",
+    "country": "Togo",
+    "currency": "West African CFA franc",
+    "symbol": "Fr",
+    "identifier": "en_TO"
+  },
+  {
+    "id": 184,
+    "code": "XPF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_French_Polynesia.svg.png",
+    "country": "French Polynesia",
+    "currency": "CFP franc",
+    "symbol": "Fr",
+    "identifier": "en_PO"
+  },
+  {
+    "id": 185,
+    "code": "XPF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flags_of_New_Caledonia.svg.png",
+    "country": "New Caledonia",
+    "currency": "CFP franc",
+    "symbol": "Fr",
+    "identifier": "en_CA"
+  },
+  {
+    "id": 186,
+    "code": "XPF",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_France.svg.png",
+    "country": "Wallis and Futuna",
+    "currency": "CFP franc",
+    "symbol": "Fr",
+    "identifier": "en_FU"
+  },
+  {
+    "id": 187,
+    "code": "YER",
+    "flag": "https://144-202-123-28.nip.io/images/yemen.png",
+    "country": "Yemen",
+    "currency": "Rial",
+    "symbol": "﷼",
+    "identifier": "en_YE"
+  },
+  {
+    "id": 188,
+    "code": "ZAR",
+    "flag": "https://144-202-123-28.nip.io/images/southafrica.png",
+    "country": "South Africa",
+    "currency": "Rand",
+    "symbol": "R",
+    "identifier": "en_AF"
+  },
+  {
+    "id": 189,
+    "code": "ZMK",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Zambia.svg.png",
+    "country": "Zambia",
+    "currency": "Zambian Kwacha (pre-2013)",
+    "symbol": "ZK",
+    "identifier": "en_ZA"
+  },
+  {
+    "id": 190,
+    "code": "ZMW",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Zambia.svg.png",
+    "country": "Zambia",
+    "currency": "Zambian kwacha",
+    "symbol": "K",
+    "identifier": "en_ZA"
+  },
+  {
+    "id": 191,
+    "code": "ZWL",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_Zimbabwe.svg.png",
+    "country": "Zimbabwe",
+    "currency": "Zimbabwean Dollar",
+    "symbol": "Z$",
+    "identifier": "en_ZI"
+  },
+  {
+    "id": 3199,
+    "code": "SVC",
+    "flag": "https://144-202-123-28.nip.io/images/200px-Flag_of_El_Salvador.svg.png",
+    "country": "El Salvador",
+    "currency": "Salvadoran colón",
+    "symbol": "₡",
+    "identifier": "en_SA"
+  },
+  {
+    "id": 3200,
+    "code": "CNH",
+    "flag": "https://144-202-123-28.nip.io/images/china.png",
+    "country": "China",
+    "currency": "Chinese Yuan Renminbi Offshore",
+    "symbol": "¥",
+    "identifier": "zh_CN"
+  }
+]

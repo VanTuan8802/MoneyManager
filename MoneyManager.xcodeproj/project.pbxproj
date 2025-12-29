@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FAF49CC22F0171580009B87C /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49CC12F0171580009B87C /* Factory */; };
 		FAF49CC92F0171780009B87C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49CC82F0171780009B87C /* Lottie */; };
+		FAF49E672F02D8610009B87C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49E662F02D8610009B87C /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF49E672F02D8610009B87C /* Kingfisher in Frameworks */,
 				FAF49CC22F0171580009B87C /* Factory in Frameworks */,
 				FAF49CC92F0171780009B87C /* Lottie in Frameworks */,
 			);
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				FAF49CC12F0171580009B87C /* Factory */,
 				FAF49CC82F0171780009B87C /* Lottie */,
+				FAF49E662F02D8610009B87C /* Kingfisher */,
 			);
 			productName = MoneyManager;
 			productReference = FAF498932F016FCB0009B87C /* MoneyManager.app */;
@@ -123,6 +126,7 @@
 			packageReferences = (
 				FAF49CC02F0171580009B87C /* XCRemoteSwiftPackageReference "Factory" */,
 				FAF49CC72F0171780009B87C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FAF49E652F02D8610009B87C /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FAF498942F016FCB0009B87C /* Products */;
@@ -384,6 +388,14 @@
 				version = 4.5.2;
 			};
 		};
+		FAF49E652F02D8610009B87C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = exactVersion;
+				version = 8.6.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -396,6 +408,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FAF49CC72F0171780009B87C /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		FAF49E662F02D8610009B87C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF49E652F02D8610009B87C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
