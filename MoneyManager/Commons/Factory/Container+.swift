@@ -24,6 +24,24 @@ extension Container {
             Navigation()
         }.singleton
     }
+    
+    var statistics: Factory<Navigation> {
+        Factory(self) { @MainActor in
+            Navigation()
+        }.singleton
+    }
+    
+    var budget: Factory<Navigation> {
+        Factory(self) { @MainActor in
+            Navigation()
+        }.singleton
+    }
+    
+    var setting: Factory<Navigation> {
+        Factory(self) { @MainActor in
+            Navigation()
+        }.singleton
+    }
 }
 
 /// Tabbar

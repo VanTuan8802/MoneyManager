@@ -92,43 +92,15 @@ struct ContainerView: View {
                         }
                     }
                 )
-            } else {
+            } else if !didSetBudget {
                 SetBudgetView(onCompleted: {
                     withAnimation {
                         didSetBudget = true
                     }
                 })
+            } else {
+                TabBarView()
             }
-//            } else if !didFisishLogin {
-//                LoginView(
-//                    onCompleted: {
-//                        withAnimation {
-//                            didFisishLogin = true
-//                        }
-//                    }
-//                )
-//                .onAppear {
-//                    app.navi = login
-//                }
-//            } else if !didSelectCurrency {
-//                BaseCurrencyView(
-//                    currencySelected: .default(),
-//                    isFullScreen: true,
-//                    onCompleted: {
-//                        withAnimation {
-//                            didSelectCurrency = true
-//                        }
-//                    }
-//                )
-//            } else if !didSetBudget{
-//                SetBudgetView(onCompleted: {
-//                    withAnimation {
-//                        didSetBudget = true
-//                    }
-//                })
-//            } else {
-//                TabBarView()
-//            }
         }
     }
 }

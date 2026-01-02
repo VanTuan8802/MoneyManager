@@ -10,16 +10,22 @@
     "0" : {
 
     },
-    "AD" : {
+    "AddTransactionView" : {
+
+    },
+    "budget" : {
       "extractionState" : "manual",
       "localizations" : {
-        "zh-Hant" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "廣告"
+            "value" : "Budget"
           }
         }
       }
+    },
+    "BudgetView" : {
+
     },
     "currencies" : {
       "extractionState" : "manual",
@@ -44,6 +50,20 @@
       }
     },
     "Hello, World!" : {
+
+    },
+    "home" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "Home" : {
 
     },
     "language" : {
@@ -217,6 +237,17 @@
         }
       }
     },
+    "setting" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setting"
+          }
+        }
+      }
+    },
     "start" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -227,6 +258,20 @@
           }
         }
       }
+    },
+    "statistics" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistics"
+          }
+        }
+      }
+    },
+    "StatisticView" : {
+
     }
   },
   "version" : "1.0"
