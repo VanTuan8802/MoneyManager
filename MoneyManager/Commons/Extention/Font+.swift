@@ -13,6 +13,7 @@ enum FontFamily {
     case medium
     case semiBold
     case bold
+    case extraBold
 
     var font: String {
         switch self {
@@ -24,6 +25,8 @@ enum FontFamily {
             return "Inter-Semibold"
         case .bold:
             return "Inter-Bold"
+        case .extraBold:
+            return "Inter-ExtraBold"
         }
     }
 }
@@ -36,6 +39,7 @@ extension Font {
     /// Medium
     static let medium10 = Font.custom(FontFamily.medium.font, size: 10)
     static let medium12 = Font.custom(FontFamily.medium.font, size: 12)
+    static let medium14 = Font.custom(FontFamily.medium.font, size: 14)
     static let medium16 = Font.custom(FontFamily.medium.font, size: 16)
     static let medium20 = Font.custom(FontFamily.medium.font, size: 20)
 
@@ -45,8 +49,12 @@ extension Font {
     static let semibold16 = Font.custom(FontFamily.semiBold.font, size: 16)
     static let semibold20 = Font.custom(FontFamily.semiBold.font, size: 20)
     static let semibold24 = Font.custom(FontFamily.semiBold.font, size: 24)
+    static let semibold30 = Font.custom(FontFamily.semiBold.font, size: 30)
 
     /// Bold
     static let bold12 = Font.custom(FontFamily.bold.font, size: 12)
-
+    static let bold20 = Font.custom(FontFamily.bold.font, size: 20)
+    
+    /// ExtraBold
+    static let extraBold22 = Font.custom(FontFamily.extraBold.font, size: 22)
 }
