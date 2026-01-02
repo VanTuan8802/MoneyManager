@@ -4,6 +4,12 @@
     "" : {
 
     },
+    "$" : {
+
+    },
+    "0" : {
+
+    },
     "AD" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -68,7 +74,7 @@
         }
       }
     },
-    "noData" : {
+    "no_data" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -167,6 +173,28 @@
         }
       }
     },
+    "please_enter_your_bugget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter your budget, Money manager will help you navigate your money."
+          }
+        }
+      }
+    },
+    "save" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
     "search" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -178,7 +206,18 @@
         }
       }
     },
-    "Start" : {
+    "set_your_budget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set your budget"
+          }
+        }
+      }
+    },
+    "start" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {

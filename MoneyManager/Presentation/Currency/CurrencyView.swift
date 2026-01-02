@@ -33,7 +33,7 @@ struct CurrencyView: View {
                 contentView
             }
             NoDataView()
-                .opacity(viewModel.renderFavorites.isEmpty && viewModel.renderCurrencies.isEmpty ? 1 : 0)
+                .opacity(viewModel.renderCurrencies.isEmpty ? 1 : 0)
         }
         .background(Color.white)
         .navigationBarBackButtonHidden(true)
@@ -71,8 +71,12 @@ struct CurrencyView: View {
                     })
                 .font(.medium14)
                 .padding(.all, 12)
-                .background(Color.c2D5163)
+                .background(.cFFFFFF)
                 .radius20
+                .overlay(
+                    RoundedRectangle(cornerRadius: 20)
+                        .stroke(Color.c2D5163, lineWidth: 1)
+                )
                 .padding(.horizontal, 16)
             
             Image(systemName: "magnifyingglass")
@@ -84,30 +88,6 @@ struct CurrencyView: View {
     @ViewBuilder
     private var contentView: some View {
         List {
-            Section(header: listSectionView(title: String(localized: .favorites))) {
-                VStack(spacing: 0) {
-                    ForEach(Array(viewModel.renderFavorites.enumerated()), id: \.element.id) { index, currency in
-                        item(currency: currency, isFavorite: true)
-                            .onTapGesture {
-                                viewModel.currencySelected = currency
-                                app.navi.pop()
-                            }
-                        if index < viewModel.renderFavorites.count - 1 {
-                            Divider()
-                        }
-                    }
-                }
-                .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(Color.c2D5163, lineWidth: 1)
-                )
-                .radius10
-            }
-            .listRowSeparator(.hidden)
-            .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-            .listRowBackground(Color.clear)
-            .listSectionSeparatorTint(Color.white)
-            
             Section(header: listSectionView(title:String(localized: .currencies))) {
                 VStack(spacing: 0) {
                     ForEach(Array(viewModel.renderCurrencies.enumerated()), id: \.element.id) { index, currency in
@@ -150,7 +130,7 @@ struct CurrencyView: View {
     }
     
     @ViewBuilder @MainActor
-    private func item(currency: Currency, isFavorite: Bool = false) -> some View {
+    private func item(currency: Currency) -> some View {
         VStack(spacing: 0) {
             HStack {
                 HStack(spacing: 8) {
@@ -165,24 +145,6 @@ struct CurrencyView: View {
                         .foregroundStyle(viewModel.currencySelected == currency ? Color.white : Color.c000000)
                 }
                 Spacer()
-                
-                if isFavorite {
-                    Image(systemName: "heart.fill")
-                        .resizable()
-                        .foregroundStyle(Color.c2D5163)
-                        .frame(width: 18, height: 16)
-                        .onTapGesture {
-                            viewModel.unfavoriteToggled(currency)
-                        }
-                } else {
-                    Image(systemName: "heart")
-                        .resizable()
-                        .foregroundStyle(Color.c2D5163)
-                        .frame(width: 18, height: 16)
-                        .onTapGesture {
-                            viewModel.favoriteToggled(currency)
-                        }
-                }
             }
             .padding(.vertical, 18)
             .padding(.horizontal, 12)
@@ -204,25 +166,6 @@ struct CurrencyView: View {
             .frame(width: 24, height: 24)
     }
     
-    private func getCorners(currency: Currency, isFavorite: Bool) -> UIRectCorner {
-        let currencies: [Currency] = {
-            if isFavorite {
-                return viewModel.renderFavorites
-            } else {
-                return viewModel.renderCurrencies
-            }
-        }()
-        
-        if currencies.count == 1 {
-            return .allCorners
-        } else if currency == currencies.first {
-            return [.topLeft, .topRight]
-        } else if currency == currencies.last {
-            return [.bottomLeft, .bottomRight]
-        } else {
-            return []
-        }
-    }
 }
 
 #Preview {

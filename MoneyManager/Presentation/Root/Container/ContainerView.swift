@@ -92,6 +92,12 @@ struct ContainerView: View {
                         }
                     }
                 )
+            } else {
+                SetBudgetView(onCompleted: {
+                    withAnimation {
+                        didSetBudget = true
+                    }
+                })
             }
 //            } else if !didFisishLogin {
 //                LoginView(

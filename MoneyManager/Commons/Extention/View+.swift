@@ -19,5 +19,21 @@ extension View {
                 self
             }
         }
+    
+    func dismissKeyboardOnTap() -> some View {
+        self.modifier(DismissKeyboardModifier())
+    }
+}
+
+struct DismissKeyboardModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .simultaneousGesture(
+                TapGesture()
+                    .onEnded { _ in
+                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                    }
+            )
+    }
 }
 
