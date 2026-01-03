@@ -10,6 +10,7 @@
 		FAF49CC22F0171580009B87C /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49CC12F0171580009B87C /* Factory */; };
 		FAF49CC92F0171780009B87C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49CC82F0171780009B87C /* Lottie */; };
 		FAF49E672F02D8610009B87C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FAF49E662F02D8610009B87C /* Kingfisher */; };
+		FAFDE8CB2F08C0F0003AC66C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAFDE8CA2F08C0F0003AC66C /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 			files = (
 				FAF49E672F02D8610009B87C /* Kingfisher in Frameworks */,
 				FAF49CC22F0171580009B87C /* Factory in Frameworks */,
+				FAFDE8CB2F08C0F0003AC66C /* RealmSwift in Frameworks */,
 				FAF49CC92F0171780009B87C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +92,7 @@
 				FAF49CC12F0171580009B87C /* Factory */,
 				FAF49CC82F0171780009B87C /* Lottie */,
 				FAF49E662F02D8610009B87C /* Kingfisher */,
+				FAFDE8CA2F08C0F0003AC66C /* RealmSwift */,
 			);
 			productName = MoneyManager;
 			productReference = FAF498932F016FCB0009B87C /* MoneyManager.app */;
@@ -127,6 +130,7 @@
 				FAF49CC02F0171580009B87C /* XCRemoteSwiftPackageReference "Factory" */,
 				FAF49CC72F0171780009B87C /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				FAF49E652F02D8610009B87C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FAFDE8C72F08C0F0003AC66C /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FAF498942F016FCB0009B87C /* Products */;
@@ -305,12 +309,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vantuan8802.dev.MoneyManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,12 +347,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vantuan8802.dev.MoneyManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -396,6 +408,14 @@
 				version = 8.6.2;
 			};
 		};
+		FAFDE8C72F08C0F0003AC66C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.54.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -413,6 +433,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FAF49E652F02D8610009B87C /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		FAFDE8CA2F08C0F0003AC66C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAFDE8C72F08C0F0003AC66C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -30,7 +30,7 @@ struct SetBudgetView: View {
             Spacer()
             actionView
         }
-        .ignoresSafeArea(.all)
+        .ignoresSafeArea(.keyboard)
         .dismissKeyboardOnTap()
     }
     
@@ -107,6 +107,7 @@ struct SetBudgetView: View {
             title: String(localized: .save),
             isEnable: $viewModel.isEnable,
             action: {
+                BudgetStorage.shared.budget = viewModel.budget.toDouble(locale: Locale.current)
                 onCompleted?()
         })
         .padding(.bottom, 48)

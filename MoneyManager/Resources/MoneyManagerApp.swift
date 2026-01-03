@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct MoneyManagerApp: App {
+    
+    init() {
+        _ = RealmManager.shared
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContainerView()
